@@ -3,22 +3,108 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
-    <EditText
-        android:layout_marginTop="50dp"
-        android:id="@+id/editText"
-        android:layout_width="250dp"
-        android:layout_marginLeft="20dp"
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/mensagem"
-        android:inputType="textPersonName"
-        android:autofillHints=""
-        android:layout_marginStart="20dp" />
+        android:hint="Nome"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginBottom="10dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:textCursorDrawable="@color/blue"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Telefone"
+    app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:layout_marginBottom="10dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/telefone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:textColorLink="#23283a" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginBottom="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="15dp"
+            android:textColorLink="#23283a" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginBottom="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idade"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="15dp"
+            android:textColorLink="#23283a" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginBottom="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/peso"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="15dp"
+            android:textColorLink="#23283a" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginBottom="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/altura"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="15dp"
+            android:textColorLink="#23283a" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
 
     <Button
         android:layout_marginTop="50dp"
