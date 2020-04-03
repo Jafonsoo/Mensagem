@@ -18,80 +18,80 @@
         android:textSize="30sp"
         android:textColor="@color/colorPrimaryDark" />
 
+
     <TextView
-        android:id="@+id/textViewMensagem2"
+        android:id="@+id/textViewMensagemnome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="24dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem"
+        tools:text="Aqui aparece a mensagem do utilizador" />
+
+    <TextView
+        android:id="@+id/textViewMensagemtelefone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:layout_marginLeft="20dp"
         android:textSize="18sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem"
+        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem2"
         tools:text="Aqui aparece a mensagem do utilizador"
         android:layout_marginStart="20dp" />
 
 
     <TextView
-        android:id="@+id/textViewMensagem3"
+        android:id="@+id/textViewMensagememail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:layout_marginLeft="20dp"
         android:textSize="18sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem"
+        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem3"
         tools:text="Aqui aparece a mensagem do utilizador"
         android:layout_marginStart="20dp" />
 
 
     <TextView
-        android:id="@+id/textViewMensagem4"
+        android:id="@+id/textViewMensagemidade"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:layout_marginLeft="20dp"
         android:textSize="18sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem"
+        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem4"
         tools:text="Aqui aparece a mensagem do utilizador"
         android:layout_marginStart="20dp" />
 
 
     <TextView
-        android:id="@+id/textViewMensagem5"
+        android:id="@+id/textViewMensagempeso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:layout_marginLeft="20dp"
         android:textSize="18sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem"
+        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem5"
         tools:text="Aqui aparece a mensagem do utilizador"
         android:layout_marginStart="20dp" />
 
 
     <TextView
-        android:id="@+id/textViewMensagem6"
+        android:id="@+id/textViewMensagemaltura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:layout_marginLeft="20dp"
         android:textSize="18sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem"
-        tools:text="Aqui aparece a mensagem do utilizador"
-        android:layout_marginStart="20dp" />
-
-
-    <TextView
-        android:id="@+id/textViewMensagem7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:layout_marginLeft="20dp"
-        android:textSize="18sp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem"
+        app:layout_constraintBottom_toTopOf="@+id/TextViewLabelMensagem6"
         tools:text="Aqui aparece a mensagem do utilizador"
         android:layout_marginStart="20dp" />
 

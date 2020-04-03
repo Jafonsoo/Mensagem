@@ -12,14 +12,13 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nome"
+        android:hint="@string/nome"
         app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
         android:layout_marginBottom="10dp">
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/nome"
         android:layout_width="match_parent"
-        android:textCursorDrawable="@color/blue"
         android:layout_height="wrap_content"
         android:drawablePadding="15dp" />
 
@@ -28,7 +27,7 @@
     <com.google.android.material.textfield.TextInputLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:hint="Telefone"
+    android:hint="@string/telefone"
     app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
     android:layout_marginBottom="10dp">
 
@@ -43,7 +42,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
+        android:hint="@string/email"
         app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
         android:layout_marginBottom="10dp">
 
@@ -59,7 +58,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Idade"
+        android:hint="@string/idade"
         app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
         android:layout_marginBottom="10dp">
 
@@ -75,7 +74,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Peso"
+        android:hint="@string/peso"
         app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
         android:layout_marginBottom="10dp">
 
@@ -91,7 +90,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Altura"
+        android:hint="@string/altura"
         app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
         android:layout_marginBottom="10dp">
 
@@ -105,16 +104,15 @@
     </com.google.android.material.textfield.TextInputLayout>
 
 
-
     <Button
-        android:layout_marginTop="50dp"
         android:id="@+id/button"
-        android:layout_marginRight="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/enviar"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
         android:onClick="enviaMensagem"
-        android:layout_marginEnd="20dp" />
+        android:text="@string/enviar" />
 
 
 </LinearLayout>
